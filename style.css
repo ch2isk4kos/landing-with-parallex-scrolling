@@ -24,8 +24,6 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 100000;
-
-  border: 5px solid white;
 }
 header .logo {
   font-weight: 700;

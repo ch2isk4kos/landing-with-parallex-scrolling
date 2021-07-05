@@ -99,6 +99,11 @@
       let name = document.getElementById("name");
       let btn = document.getElementById("btn");
       let mountains_front = document.getElementById("mountains_front");
+
+      window.addEventListener("scroll", () => {
+        let value = window.scrollY;
+        stars.style.left = value + "px";
+      });
     </script>
   </body>
 </html>

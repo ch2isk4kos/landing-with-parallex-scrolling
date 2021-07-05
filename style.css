@@ -65,6 +65,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 section::before {
   content: "";
@@ -89,9 +90,7 @@ section img#moon {
 }
 section h2#name {
   position: absolute;
-  /* margin-left: 950px; */
-  /* margin-left: 125px; */
-  margin-left: 50px;
+  right: -375px;
   white-space: nowrap;
   font-size: 7.5vw;
   transform: translateY(50px);
@@ -109,7 +108,7 @@ section a#btn {
   text-decoration: none;
   font-size: 1.5em;
   transform: translateY(175px);
-  z-index: 10000;
+  z-index: 100;
   color: #2b1055;
   background: #fff;
 }

@@ -96,7 +96,7 @@ section h2#name {
 section img#mountains_front {
   z-index: 1000;
 }
-section button#btn {
+section a#btn {
   display: inline-block;
   padding: 8px 30px;
   border-radius: 40px;
@@ -108,7 +108,7 @@ section button#btn {
   color: #2b1055;
   background: #fff;
 }
-section button#btn:hover {
+section a#btn:hover {
   color: #fff;
   background: #2b1055;
   cursor: pointer;

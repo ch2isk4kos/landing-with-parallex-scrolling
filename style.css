@@ -89,8 +89,10 @@ section img#moon {
 }
 section h2#name {
   position: absolute;
+  /* margin-left: 950px; */
+  margin-left: 125px;
   white-space: nowrap;
-  font-size: 9vw;
+  font-size: 7.5vw;
   transform: translateY(50px);
   z-index: 100;
   color: #fff;
